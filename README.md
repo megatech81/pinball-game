@@ -70,6 +70,26 @@ See [Mobile Setup Guide](mobile/MOBILE_SETUP.md) for detailed instructions on bu
 - The flippers provide more force when actively pressed
 - Ball physics include gravity and realistic bouncing
 
+## Troubleshooting
+
+### "ModuleNotFoundError: No module named 'pygame'"
+If you encounter this error when running the game:
+
+1. **Ensure dependencies are installed**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **For Python 3 users**, try using pip3:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+
+3. **Verify pygame installation**:
+   ```bash
+   python -c "import pygame; print('pygame installed successfully')"
+   ```
+
 ## Technical Details
 
 ### Desktop Version
